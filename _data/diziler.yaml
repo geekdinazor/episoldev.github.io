@@ -1,0 +1,16 @@
+diziler:
+  - bir:
+    baslik: Mazi
+    resim: https://picsum.photos/327/500?photo=1
+  - iki:
+    baslik: Psikoloji
+    resim: https://picsum.photos/327/500?photo=2
+  - uc:
+    baslik: Öykü
+    resim: https://picsum.photos/327/500?photo=3
+  - dort:
+    baslik: Çağdaş
+    resim: https://picsum.photos/327/500?photo=4
+  - bes:
+    baslik: Çocuk
+    resim: https://picsum.photos/327/500?photo=5

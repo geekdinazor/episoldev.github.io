@@ -55,10 +55,16 @@
   }
 
   span.img-text {
-    text-decoration: none;
+    text-decoration: underline;
+    font-weight: 700;
     cursor: pointer;
+    margin-top: 10px;
     width: 100%;
     font-size: 23px;
     display: block;
     text-transform: capitalize;
+  }
+
+  .item > p{
+    margin: 10px 10px 10px 10px
   }

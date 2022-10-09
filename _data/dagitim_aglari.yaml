@@ -1,0 +1,29 @@
+dagitim_aglari:
+  - bir:
+    isim: Amazon
+    resim: images/dagitim_aglari/amazon_logo.svg
+    link: https://www.amazon.com.tr/s?me=AFNX33I7NV97T&marketplaceID=A33AVAJ2PDY3EV
+  - iki: 
+    isim: Kitapyurdu
+    resim: images/dagitim_aglari/kitapyurdu.png
+    link:
+  - uc:
+    isim: BKM Kitap
+    resim: images/dagitim_aglari/bkmkitap.png
+    link:
+  - dort:
+    isim: D&R
+    resim: images/dagitim_aglari/dr.jpeg
+    link:
+  - bes:
+    isim: Kidega
+    resim: images/dagitim_aglari/kidega.png
+    link:
+  - alti:
+    isim: İmge Kitabevi
+    resim: images/dagitim_aglari/imge.png
+    link:
+  - yedi: 
+    isim: Babil.com
+    resim: images/dagitim_aglari/babil.png
+    link:

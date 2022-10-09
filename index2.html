@@ -1,0 +1,82 @@
+---
+layout: landing
+---
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>{{ site.title }}</h2>
+							<p>{{ site.description | markdownify }}</p>
+						</div>
+						<a href="#one" class="more scrolly">Kaydır</a>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Yeni çıkanlar</h2>
+							</header>
+							<div class="carousel-wrap">
+								<div class="owl-carousel owl-theme">
+									{% for kitap in site.data.yeni_cikanlar.kitaplar %}
+									<div class="item">
+									  <img src="{{kitap.resim}}" />
+									  <span class="img-text">{{kitap.baslik}}</span>
+									  <p>{{kitap.yazar}}</p>
+									</div>
+									{% endfor %}
+								</div>
+							</div>
+						</div>
+					</section>
+				<!-- Two -->
+					<section id="two" class="wrapper style2 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Yazarlar</h2>
+							</header>
+							<div class="carousel-wrap">
+								<div class="owl-carousel owl-theme">
+									{% for yazar in site.data.yazarlar.yazarlar %}
+									<div class="item">
+									  <img src="{{yazar.resim}}" />
+									  <span class="img-text">{{yazar.baslik}}</span>
+									  <p>{{yazar.icerik}}</p>
+									</div>
+									{% endfor %}
+								</div>
+							</div>
+						</div>
+					</section>
+
+				<!-- Three -->
+				<section id="three" class="wrapper style3 special">
+					<div class="inner">
+						<header class="major">
+							<h2>Diziler</h2>
+						</header>
+						<div class="owl-carousel owl-theme">
+							{% for dizi in site.data.diziler.diziler %}
+							<div class="item">
+							  <img src="{{dizi.resim}}" />
+							  <span class="img-text">{{dizi.baslik}}</span>
+							</div>
+							{% endfor %}
+						</div>
+					</div>
+					</div>
+				</section>
+
+				<!-- Four -->
+					<section id="four" class="wrapper style4 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Dağıtım Ağımız</h2>
+							</header>
+							{% for ag in site.data.dagitim_aglari.dagitim_aglari %}
+							<a href="{{ag.link}}" class="dist-link" target="_blank">
+								<img src="{{ag.resim}}" class="dist-img" alt="{{ag.isim}}">
+							</a>
+							{% endfor %}
+						</div>
+					</section>

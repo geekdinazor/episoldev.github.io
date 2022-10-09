@@ -1,60 +1,35 @@
----
-layout: landing
----
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<h2>{{ site.title }}</h2>
-							<p>{{ site.description | markdownify }}</p>
-							<ul class="actions">
-								<li><a href="#" class="button special">Activate</a></li>
-							</ul>
-						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
-					</section>
-
-				<!-- One -->
-					<section id="one" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Yeni çıkanlar</h2>
-							</header>
-							<div class="carousel-wrap">
-								<div class="owl-carousel owl-theme">
-									{% for kitap in site.data.yeni_cikanlar.kitaplar %}
-									<div class="item">
-									  <img src="{{kitap.resim}}" />
-									  <span class="img-text">{{kitap.baslik}}</span>
-									  <p>{{kitap.yazar}}</p>
-									</div>
-									{% endfor %}
-								</div>
-							  </div>
-						</div>
-					</section>
-				<!-- Two -->
-					<section id="two" class="wrapper style2 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Yazarlar</h2>
-							</header>
-						</div>
-					</section>
-
-				<!-- Three -->
-				<section id="three" class="wrapper style3 special">
-					<div class="inner">
-						<header class="major">
-							<h2>Diziler</h2>
-						</header>
-					</div>
-				</section>
-
-				<!-- Four -->
-					<section id="four" class="wrapper style4 special">
-						<div class="inner">
-							<header>
-								<h2>Dağıtım Ağımız</h2>
-							</header>
-						</div>
-					</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: color(srgb 0.9607 0.9686 0.9647);
+        }
+        h1{
+            color: green;
+        }
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <div>
+            <img src="images/logo.png" width="300px">
+            <br>
+            <img src="images/loading2.gif">
+            <h1>Yakında basıyoruz!</h1>
+        </div>
+    </div>
+</body>
+</html>
