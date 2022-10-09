@@ -1,0 +1,64 @@
+.carousel-wrap {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+  }
+  .owl-carousel .owl-nav{
+    overflow: hidden;
+    height: 0px;
+  }
+
+  .owl-theme .owl-dots .owl-dot.active span, 
+  .owl-theme .owl-dots .owl-dot:hover span {
+      background: #2caae1;
+  }
+
+
+  .owl-carousel .item {
+      text-align: center;
+      background: #e9e9e93b;
+      height: 600px;
+      border-radius: 10px;
+  }
+  .owl-carousel .nav-btn{
+      height: 47px;
+      position: absolute;
+      width: 26px;
+      cursor: pointer;
+      top: 300px !important;
+      filter: invert(1);
+  }
+  
+  .owl-carousel .item > img{
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .owl-carousel .owl-prev.disabled,
+  .owl-carousel .owl-next.disabled{
+    pointer-events: none;
+    opacity: 0.2;
+  }
+
+  .owl-carousel .prev-slide{
+      background: url(https://www.canyayinlari.com/skins/shared/images/arrow-left.svg) no-repeat scroll 0 0 !important;
+      left: -44px;
+  }
+  .owl-carousel .next-slide{
+      background: url(https://www.canyayinlari.com/skins/shared/images/arrow-right.svg) no-repeat scroll -0px 0px !important;
+      right: -44px;
+  }
+  .owl-carousel .prev-slide:hover{
+     background-position: 0px -53px;
+  }
+  .owl-carousel .next-slide:hover{
+    background-position: -24px -53px;
+  }
+
+  span.img-text {
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 23px;
+    display: block;
+    text-transform: capitalize;
+  }
